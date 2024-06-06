@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ClassSelectionView: View {
+struct GradeSelectionView: View {
     var body: some View {
         NavigationStack {
             ZStack {
@@ -81,6 +81,6 @@ struct ClassSelectionView: View {
     }
 }
 #Preview {
-    ClassSelectionView()
+    GradeSelectionView()
 }
 
