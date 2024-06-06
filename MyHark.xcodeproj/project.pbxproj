@@ -12,6 +12,7 @@
 		46F5B51F2C0E418A001270B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F5B51E2C0E418A001270B2 /* Preview Assets.xcassets */; };
 		46F5B5292C0E42E9001270B2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F5B5282C0E42E9001270B2 /* WelcomeView.swift */; };
 		46F5B52B2C0E5092001270B2 /* GradeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F5B52A2C0E5092001270B2 /* GradeSelectionView.swift */; };
+		46F5B52D2C11F14B001270B2 /* ClassSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F5B52C2C11F14B001270B2 /* ClassSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		46F5B51E2C0E418A001270B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		46F5B5282C0E42E9001270B2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		46F5B52A2C0E5092001270B2 /* GradeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeSelectionView.swift; sourceTree = "<group>"; };
+		46F5B52C2C11F14B001270B2 /* ClassSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				46F5B5282C0E42E9001270B2 /* WelcomeView.swift */,
 				46F5B52A2C0E5092001270B2 /* GradeSelectionView.swift */,
+				46F5B52C2C11F14B001270B2 /* ClassSelectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				46F5B5182C0E4186001270B2 /* MyHarkApp.swift in Sources */,
 				46F5B5292C0E42E9001270B2 /* WelcomeView.swift in Sources */,
+				46F5B52D2C11F14B001270B2 /* ClassSelectionView.swift in Sources */,
 				46F5B52B2C0E5092001270B2 /* GradeSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

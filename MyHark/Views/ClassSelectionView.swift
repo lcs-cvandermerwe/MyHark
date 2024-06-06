@@ -2,12 +2,12 @@
 //  ClassSelectionView.swift
 //  MyHark
 //
-//  Created by Cari van der Merwe on 2024-06-03.
+//  Created by Cari van der Merwe on 2024-06-06.
 //
 
 import SwiftUI
 
-struct GradeSelectionView: View {
+struct ClassSelectionView: View {
     var body: some View {
         NavigationStack {
             ZStack {
@@ -18,56 +18,56 @@ struct GradeSelectionView: View {
                         .foregroundColor(.brightBlue)
                         .font(.custom("a", size: 90))
                     
-                    Text("Which Grade are you in?")
+                    Text("Which Class are you in?")
                         .foregroundStyle(Color.white)
                         .font(.custom("EuphemiaUCAS-Bold", size: 30.0))
                     HStack{
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text("9")
+                            Text("Grade 10 English")
                                 .foregroundStyle(Color.white)
-                                .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
+                                .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
                         .frame(height: 100)
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text("10")
+                            Text("Page 2 Stage")
                                 .foregroundStyle(Color.white)
-                                .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
+                                .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
                         .frame(height: 100)
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text("11")
+                            Text("War Experience")
                                 .foregroundStyle(Color.white)
-                                .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
+                                .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
                         .frame(height: 100)
                         
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text("12")
+                            Text("AP English")
                                 .foregroundStyle(Color.white)
-                                .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
+                                .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
                         .frame(height: 100)
                         
                     }
                   
                     NavigationLink {
-                        Text("Grade")
+                        Text("Class")
                     } label: {
                         Text("Continue")
                             .foregroundStyle(Color.white)
                             .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
                             .padding()
-                            .padding(.vertical, 10)
+                            
                             .background {
-                                RoundedRectangle(cornerRadius: 20.0)
+                                RoundedRectangle(cornerRadius: 15.0)
                                     .foregroundStyle(.gray)
                                 
                                 
@@ -80,7 +80,7 @@ struct GradeSelectionView: View {
         
     }
 }
-#Preview {
-    GradeSelectionView()
-}
 
+#Preview {
+    ClassSelectionView()
+}
