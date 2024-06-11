@@ -13,6 +13,8 @@ struct ClassListIndividualView: View {
     Rectangle()
             .foregroundColor(.white)
         Text(studentName)
+            .font(.custom("EuphemiaUCAS-Bold", size: 20))
+        
         
     }
 }

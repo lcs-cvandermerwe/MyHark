@@ -9,9 +9,16 @@ import SwiftUI
 
 struct ClassListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            Color.white
+                .ignoresSafeArea()
+            ClassListIndividualView(studentName:"valerie kate lo")
+            ClassListIndividualView(studentName: "Cari van der Merwe")
+                
+            }
+        }
     }
-}
+
 
 #Preview {
     ClassListView()

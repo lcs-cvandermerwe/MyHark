@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ClassSelectionView: View {
+    var ClassName: String
     var body: some View {
         NavigationStack {
             ZStack {
@@ -25,7 +26,7 @@ struct ClassSelectionView: View {
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text("Grade 10 English")
+                            Text(ClassName)
                                 .foregroundStyle(Color.white)
                                 .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
@@ -33,7 +34,7 @@ struct ClassSelectionView: View {
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text("Page 2 Stage")
+                            Text(ClassName)
                                 .foregroundStyle(Color.white)
                                 .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
@@ -41,7 +42,7 @@ struct ClassSelectionView: View {
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text("War Experience")
+                            Text(ClassName)
                                 .foregroundStyle(Color.white)
                                 .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
@@ -50,7 +51,7 @@ struct ClassSelectionView: View {
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text("AP English")
+                            Text(ClassName)
                                 .foregroundStyle(Color.white)
                                 .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
@@ -82,5 +83,5 @@ struct ClassSelectionView: View {
 }
 
 #Preview {
-    ClassSelectionView()
+    ClassSelectionView(ClassName: "Page2Stage")
 }
