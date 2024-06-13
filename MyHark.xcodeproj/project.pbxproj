@@ -20,6 +20,7 @@
 		46F5B5372C177C49001270B2 /* RecentNotesAndQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F5B5362C177C49001270B2 /* RecentNotesAndQuestions.swift */; };
 		46F5B5392C178152001270B2 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F5B5382C178152001270B2 /* NotesView.swift */; };
 		46F5B53B2C178573001270B2 /* ClassListIndividualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F5B53A2C178573001270B2 /* ClassListIndividualView.swift */; };
+		46F5B53D2C1B22C0001270B2 /* StudentInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F5B53C2C1B22C0001270B2 /* StudentInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		46F5B5362C177C49001270B2 /* RecentNotesAndQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentNotesAndQuestions.swift; sourceTree = "<group>"; };
 		46F5B5382C178152001270B2 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		46F5B53A2C178573001270B2 /* ClassListIndividualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListIndividualView.swift; sourceTree = "<group>"; };
+		46F5B53C2C1B22C0001270B2 /* StudentInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +96,11 @@
 				46F5B52E2C135C06001270B2 /* StudentSelectionView.swift */,
 				46F5B5302C17780D001270B2 /* StudentView.swift */,
 				46F5B5322C177C0A001270B2 /* MyWorkView.swift */,
-				46F5B5382C178152001270B2 /* NotesView.swift */,
 				46F5B5342C177C27001270B2 /* ClassListView.swift */,
 				46F5B53A2C178573001270B2 /* ClassListIndividualView.swift */,
+				46F5B53C2C1B22C0001270B2 /* StudentInfoView.swift */,
 				46F5B5362C177C49001270B2 /* RecentNotesAndQuestions.swift */,
+				46F5B5382C178152001270B2 /* NotesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				46F5B5392C178152001270B2 /* NotesView.swift in Sources */,
 				46F5B5292C0E42E9001270B2 /* WelcomeView.swift in Sources */,
 				46F5B5352C177C27001270B2 /* ClassListView.swift in Sources */,
+				46F5B53D2C1B22C0001270B2 /* StudentInfoView.swift in Sources */,
 				46F5B52D2C11F14B001270B2 /* ClassSelectionView.swift in Sources */,
 				46F5B5372C177C49001270B2 /* RecentNotesAndQuestions.swift in Sources */,
 				46F5B5312C17780D001270B2 /* StudentView.swift in Sources */,

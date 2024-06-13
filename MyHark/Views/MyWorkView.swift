@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct MyWorkView: View {
+    var studentName: String
     var body: some View {
-      
-    Rectangle()
-        .foregroundColor(.white)
+        
+            
+            Text(studentName)
+        
     }
 }
+    
+    #Preview {
+        MyWorkView(studentName: "Axel Zeitlinger Fontana")
+    }
 
-#Preview {
-    MyWorkView()
-}
