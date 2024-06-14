@@ -23,11 +23,11 @@ struct StudentView: View {
                 Image(systemName:"graduationcap.fill")
                     .foregroundStyle(Color.white)
                     .font(.custom("EuphemiaUCAS-Bold", size: 30, relativeTo: .largeTitle))
-               
-               
-                   
+                
+                
+                
             }
-          
+            
             
         }
         .frame(height: 100)

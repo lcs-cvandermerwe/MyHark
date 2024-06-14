@@ -13,7 +13,7 @@ struct ClassListView: View {
         NavigationStack{
             Color.white
                 .ignoresSafeArea()
-           ClassListIndividualView(student: Cari)
+            ClassListIndividualView(student: Cari)
             
         }
     }

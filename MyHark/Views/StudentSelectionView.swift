@@ -63,7 +63,7 @@ struct StudentSelectionView: View {
         
     }
 }
-    
-    #Preview {
-        StudentSelectionView(student: Cari)
-    }
+
+#Preview {
+    StudentSelectionView(student: Cari)
+}

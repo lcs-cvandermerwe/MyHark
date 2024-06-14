@@ -57,18 +57,26 @@ struct GradeSelectionView: View {
                         .frame(height: 100)
                         
                     }
-                  
+                    
                     NavigationLink {
                         ClassSelectionView(ClassName1: "Page2Stage", ClassName2: "Grade 10 Eng", ClassName3: "History", ClassName4: "War Experience")
                     } label: {
-                       Text("Go to Classes")
+                        Text("Continue")
+                            .foregroundStyle(Color.white)
+                            .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
+                            .padding()
+                        
+                            .background {
+                                RoundedRectangle(cornerRadius: 15.0)
+                                    .foregroundStyle(.gray)
+                            }
+                        
                     }
-                    
                 }
             }
+            
+            
         }
-        
-        
     }
 }
 #Preview {

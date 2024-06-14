@@ -7,7 +7,7 @@
 import SwiftUI
 
 struct InfoView: View {
-   
+    
     
     var student: Student
     
@@ -16,7 +16,7 @@ struct InfoView: View {
             .font(.custom("EuphemiaUCAS-Bold", size:17.0, relativeTo: .largeTitle))
         Text(student.studentName)
             .foregroundStyle(Color.black)
-
+        
             .font(.custom("EuphemiaUCAS-Bold", size: 17.0, relativeTo: .largeTitle))
         ZStack{
             Rectangle()
@@ -35,7 +35,7 @@ struct InfoView: View {
     
 }
 #Preview {
-   InfoView(student: Cari)
+    InfoView(student: Cari)
 }
 
 
