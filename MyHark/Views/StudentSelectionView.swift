@@ -30,9 +30,7 @@ struct StudentSelectionView: View {
                         .font(.custom("EuphemiaUCAS-Bold", size: 30.0))
                     HStack{
                         StudentView(studentName: "Cari van der Merwe")
-                        
                         StudentView(studentName: "jazmin cruz cappo")
-                        
                         StudentView(studentName: "Emma van der Merwe")
                         StudentView(studentName: "Liam van der Merwe")
                         
