@@ -30,13 +30,13 @@ struct WelcomeView: View {
                         your harknesses!
                         """)
                     .multilineTextAlignment(.center)
-                        .foregroundStyle(Color.white)
-                        .font(.custom("EuphemiaUCAS-Bold", size: 20))
+                    .foregroundStyle(Color.white)
+                    .font(.custom("EuphemiaUCAS-Bold", size: 20))
                     Spacer()
                     NavigationLink {
                         GradeSelectionView()
                     } label: {
-                       Text("Go to Classes")
+                        Text("Go to Classes")
                             .foregroundStyle(Color.white)
                             .font(.custom("EuphemiaUCAS-Bold", size: 35.0, relativeTo: .largeTitle))
                             .padding()
@@ -44,18 +44,18 @@ struct WelcomeView: View {
                             .background {
                                 RoundedRectangle(cornerRadius: 20.0)
                                     .foregroundStyle(.gray)
-                                    
+                                
+                            }
+                        
                     }
-    
-                    }
-
+                    
                     Spacer()
                     
                 }
                 
             }
         }
-     
+        
     }
 }
 

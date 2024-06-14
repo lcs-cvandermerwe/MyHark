@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct StudentSelectionView: View {
+    var student: Student
     var body: some View {
         NavigationStack {
             ZStack {
@@ -38,30 +39,31 @@ struct StudentSelectionView: View {
                     }
                     
                     NavigationLink {
-                        
+                        StudentInfoView(student: Cari)
                     } label: {
                         Text("Continue")
+                            .foregroundStyle(Color.white)
                             .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
                             .padding()
                         
                             .background {
                                 RoundedRectangle(cornerRadius: 15.0)
                                     .foregroundStyle(.gray)
-                                
-                                
-                                
-                                
-                                
                             }
+                        
+                        
+                        
+                        
+                        
                     }
                 }
             }
-            
-            
         }
+        
+        
     }
 }
     
     #Preview {
-        StudentSelectionView()
+        StudentSelectionView(student: Cari)
     }

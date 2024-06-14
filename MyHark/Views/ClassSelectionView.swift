@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct ClassSelectionView: View {
-    var ClassName: String
+    var ClassName1: String
+    var ClassName2: String
+    var ClassName3: String
+    var ClassName4: String
     var body: some View {
         NavigationStack {
             ZStack {
@@ -26,7 +29,7 @@ struct ClassSelectionView: View {
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text(ClassName)
+                            Text(ClassName1)
                                 .foregroundStyle(Color.white)
                                 .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
@@ -34,7 +37,7 @@ struct ClassSelectionView: View {
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text(ClassName)
+                            Text(ClassName2)
                                 .foregroundStyle(Color.white)
                                 .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
@@ -42,7 +45,7 @@ struct ClassSelectionView: View {
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text(ClassName)
+                            Text(ClassName3)
                                 .foregroundStyle(Color.white)
                                 .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
@@ -51,37 +54,37 @@ struct ClassSelectionView: View {
                         ZStack {
                             Rectangle()
                                 .foregroundColor(.brightBlue)
-                            Text(ClassName)
+                            Text(ClassName4)
                                 .foregroundStyle(Color.white)
                                 .font(.custom("EuphemiaUCAS-Bold", size: 15.0, relativeTo: .largeTitle))
                         }
                         .frame(height: 100)
                         
                     }
-                  
+                    
                     NavigationLink {
-                        Text("Class")
+                        StudentSelectionView(student: Cari)
                     } label: {
                         Text("Continue")
                             .foregroundStyle(Color.white)
                             .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
                             .padding()
-                            
+                        
                             .background {
                                 RoundedRectangle(cornerRadius: 15.0)
                                     .foregroundStyle(.gray)
-                                
-                                
                             }
+                        
+                        
                     }
                 }
             }
         }
-        
-        
     }
+    
+    
 }
 
 #Preview {
-    ClassSelectionView(ClassName: "Page2Stage")
+    ClassSelectionView(ClassName1: "Page2Stage", ClassName2: "Grade 10 Eng", ClassName3: "History", ClassName4: "War Experience")
 }

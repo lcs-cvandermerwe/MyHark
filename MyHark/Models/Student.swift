@@ -9,12 +9,20 @@ import SwiftUI
 
 struct Student {
     var studentName: String
-    var notes : String
-    var questions : String
+    var notesTitle: String
+    var notes: String
+    var questionsTitle: String
+    var questions: String
 }
 
-var Cari = Student ( studentName: "Cari van der Merwe", notes:"""
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A pellentesque sit amet porttitor eget. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Eget duis at tellus at urna condimentum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Urna nunc id cursus metus aliquam. Eget felis eget nunc lobortis mattis aliquam. Pharetra convallis posuere morbi leo urna molestie. Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis. Sit amet mattis vulputate enim.
-""", questions: """
- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A pellentesque sit amet porttitor eget. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Eget duis at tellus at urna condimentum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Urna nunc id cursus metus aliquam. Eget felis eget nunc lobortis mattis aliquam. Pharetra convallis posuere morbi leo urna molestie. Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis. Sit amet mattis vulputate enim.
+var Cari = Student ( studentName: "Cari van der Merwe",notesTitle: "Notes", notes:"""
+- Violence has a negative impact on people’s relationships, and the damage done could be mutual but people have the right to accept and reject violence.
+-Individuals are able to get along better with people who have gone through similar experiences to them.
+
+
+""", questionsTitle: "Questions", questions: """
+- Why did trevor's mum throw him out a car?
+- Why did abel beat them?
+- Why does the world spin?
+- How to become a billionare by the age of 3?
 """)
