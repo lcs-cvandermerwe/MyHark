@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WelcomeView: View {
+    var student : Student
     var body: some View {
         NavigationStack {
             ZStack {
@@ -33,9 +34,9 @@ struct WelcomeView: View {
                         .font(.custom("EuphemiaUCAS-Bold", size: 20))
                     Spacer()
                     NavigationLink {
-                        Text("Second View")
+                        GradeSelectionView()
                     } label: {
-                        Text("Go to Classes")
+                       Text("Go to Classes")
                             .foregroundStyle(Color.white)
                             .font(.custom("EuphemiaUCAS-Bold", size: 35.0, relativeTo: .largeTitle))
                             .padding()
@@ -44,8 +45,8 @@ struct WelcomeView: View {
                                 RoundedRectangle(cornerRadius: 20.0)
                                     .foregroundStyle(.gray)
                                     
-                            }
-                        
+                    }
+    
                     }
 
                     Spacer()
@@ -59,5 +60,5 @@ struct WelcomeView: View {
 }
 
 #Preview {
-    WelcomeView()
+    WelcomeView(student: Cari)
 }

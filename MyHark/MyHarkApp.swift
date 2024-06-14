@@ -11,7 +11,7 @@ import SwiftUI
 struct MyHarkApp: App {
     var body: some Scene {
         WindowGroup {
-            WelcomeView()
+            WelcomeView(student: Cari)
         }
     }
 }

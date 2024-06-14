@@ -38,10 +38,9 @@ struct StudentSelectionView: View {
                     }
                     
                     NavigationLink {
-                        Text("Yourself")
+                        
                     } label: {
                         Text("Continue")
-                            .foregroundStyle(Color.white)
                             .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
                             .padding()
                         
@@ -50,17 +49,19 @@ struct StudentSelectionView: View {
                                     .foregroundStyle(.gray)
                                 
                                 
+                                
+                                
+                                
                             }
-                        
                     }
                 }
             }
+            
+            
         }
-        
-        
     }
 }
-
-#Preview {
-    StudentSelectionView()
-}
+    
+    #Preview {
+        StudentSelectionView()
+    }

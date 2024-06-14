@@ -59,11 +59,11 @@ struct GradeSelectionView: View {
                     }
                   
                     NavigationLink {
-                        Text("Grade")
+                        ClassSelectionView(ClassName: "Page2Stage")
                     } label: {
-                        Text("Continue")
+                       Text("Go to Classes")
                             .foregroundStyle(Color.white)
-                            .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
+                            .font(.custom("EuphemiaUCAS-Bold", size: 35.0, relativeTo: .largeTitle))
                             .padding()
                             .padding(.vertical, 10)
                             .background {

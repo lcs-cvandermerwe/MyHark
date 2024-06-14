@@ -13,14 +13,7 @@ struct ClassListView: View {
         NavigationStack{
             Color.white
                 .ignoresSafeArea()
-            ClassListIndividualView(studentName:"valerie kate lo")
-            ClassListIndividualView(studentName: "Cari van der Merwe")
-            ClassListIndividualView(studentName: "AJ")
-            ClassListIndividualView(studentName: "Lexi")
-            ClassListIndividualView(studentName: "Danika")
-            ClassListIndividualView(studentName: "Yoshi")
-            ClassListIndividualView(studentName: "Eason")
-            ClassListIndividualView(studentName: "Mathew")
+           ClassListIndividualView(student: Cari)
             
         }
     }

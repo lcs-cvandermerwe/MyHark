@@ -8,19 +8,14 @@
 import SwiftUI
 
 struct ClassListIndividualView: View {
-    var studentName: String
+    var student : Student
     var body: some View {
         NavigationStack{
-            NavigationLink(studentName,
-                           destination:StudentInfoView)
+            NavigationLink(student.studentName,
+                           destination:InfoView(student:student ))
             Rectangle()
                 .foregroundColor(.white)
-        label:  do {
-            Text(studentName)
-                .foregroundStyle(Color.black)
-                .font(.custom("EuphemiaUCAS-Bold", size: 30.0, relativeTo: .largeTitle))
-                .padding()
-            
+     
             
         }
             
@@ -28,7 +23,6 @@ struct ClassListIndividualView: View {
         }
     }
     
-}
 #Preview {
-    ClassListIndividualView(studentName: "cari")
+    ClassListIndividualView(student:Cari)
 }
